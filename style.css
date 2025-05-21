@@ -1,0 +1,79 @@
+/* body  */
+body {
+  background: linear-gradient(to right, #90a955, #ecf39e);
+  text-align: center;
+  font-family: 'Funnel Display', sans-serif;
+  color: white;
+  margin-top: 100px;
+  text-shadow: 0 0 3px black;
+}
+
+/* h1 tag */
+
+#title {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+/* counter tag */
+#count-el {
+  margin-top: 10px;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+/* container div */
+.container {
+  background-image: url('images/image.jpg');
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 6px solid #000;
+}
+
+/* buttons */
+
+.btn {
+  padding: 6px 6px;
+  margin: 4px 0 5px 0;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: inherit;
+  width: 200px;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+}
+
+#btn-increment {
+  background-color: #9d0208;
+}
+
+#btn-save {
+  background-color: #008000;
+}
+
+.reset-entries {
+  background-color: #004b23;
+  font-weight: bold;
+  font-size: 15px;
+  color: inherit;
+  padding: 6px 6px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+/* p element */
+#save-el {
+  background-color: #000;
+  font-size: 17px;
+  padding: 6px 6px;
+  border-radius: 5px;
+}

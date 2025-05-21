@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golf Birdie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Birdie par hole:</h1>
+      <h2 id="count-el">0</h2>
+      <button id="btn-increment" class="btn" onclick="increment()">
+        INCREMENT
+      </button>
+      <button id="btn-save" class="btn" onclick="save()">SAVE</button>
+      <p id="save-el">Previous entries:</p>
+      <button class="reset-entries" onclick="resetEntry()">
+        Reset Entries
+      </button>
+    </div>
+
+    <!-- java script -->
+    <script src="index.js"></script>
+  </body>
+</html>
